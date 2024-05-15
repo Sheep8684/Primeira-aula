@@ -9,6 +9,7 @@ function verificar(){
 
     if(usuário === "Ana" && senha === "pão" || usuário === "Júlia" && senha === "batata" || usuário === "Luana" && senha === "sushi"){
         document.getElementById('resultado').innerText = `Login efetuado com sucesso`
+        window.location.href = 'https://www.fiap.com.br/colegio/'
     }
     else{
         document.getElementById('resultado').innerText = "Senha ou usuário incorretos"

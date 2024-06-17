@@ -1,0 +1,49 @@
+#Central{
+    width: 1280px;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Cabeçalho*/
+
+#cabeçalho{
+    width: 1280px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#info{
+    width: 571px;
+    height: 32px;
+    gap: 43px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#home{
+    width: 81px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#galeria{
+    width: 111px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#cadastro{
+    width: 139px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#contato{
+    width: 119px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*main pt1 - elementos visuais*/

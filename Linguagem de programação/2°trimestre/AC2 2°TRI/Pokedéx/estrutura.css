@@ -1,0 +1,201 @@
+
+#Central{
+    width: 1280px;
+    height: 1913px;
+    display: flex;
+    flex-direction: column;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*Cabeçalho*/
+
+#cabeçalho{
+    width: 1280px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#info{
+    width: 571px;
+    height: 32px;
+    gap: 43px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#home{
+    width: 81px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#galeria{
+    width: 111px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#cadastro{
+    width: 139px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#contato{
+    width: 119px;
+    height: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*main pt1 - elementos visuais*/
+
+#coluna{
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+
+#visual{
+
+    width: 1280px;
+    height: 712px;
+    left: 0%;
+    background-image:url('800x_100_w-5a0bd86d12ff4-removebg-preview.png') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#camada{
+    width: 1280px;
+    height: 712px;
+    left: 0px;
+    
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.58) 20.23%, rgba(0, 0, 0, 0) 81.48%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#el1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 59px;
+}
+
+#temos{
+    width: 547px;
+    height: 58px;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+}
+#texto{
+    width: 498.73px;
+    height: 116px;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+}
+#cad{
+    background-color: #306CB4;
+    color: white;
+    border-radius: 10px;
+    stroke: #1D2C5E;
+    width: 193px;
+    height: 59px;
+    border: none;
+}
+
+/*login do usuario*/
+
+#login{
+    width: 1280px;
+    height: 995px;
+    background-color: #306CB4;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+#username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#t2{
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+}
+#usuario{
+    width: 640px;
+    height: 94.72px;
+    border-radius: 10px;
+    border: none;
+}
+#senha{
+    width: 640px;
+    height: 94.72px;
+    border-radius: 10px;
+    border: none;
+}
+#logar{
+    position: relative;
+    width: 343.36px;
+    height: 124.12px;
+    background-color: #FFCB05;
+    stroke: #C7A008;
+    stroke-width: 5%;
+    border-radius: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    top: 15px;
+}
+
+/*ajuste gráfico*/
+
+#ajustes{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1280px;
+    height: 380.57px;
+}
+
+#ash{
+    position: relative;
+    width: 651.92px;
+    height: 380.57px;
+    background-image: url('ash.svg');
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 445px;
+}
+
+#camada2{
+    position: relative;
+    width: 651.92px;
+    height: 380.57px;
+    left: 53px;
+    top: 19px;
+}
+
+/*rodapé*/
+
+#rodape{
+    position: relative;
+    width: 1280px;
+    height: 87px;
+    background-color: #21386E;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 212.52px;
+    height: 79.03px;
+}

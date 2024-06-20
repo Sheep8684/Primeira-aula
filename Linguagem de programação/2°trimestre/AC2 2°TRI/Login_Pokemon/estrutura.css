@@ -104,6 +104,9 @@
     height: 59px;
     border: none;
 }
+
+/*login do usuario*/
+
 #login{
     width: 1280px;
     height: 995px;
@@ -150,6 +153,8 @@
     top: 15px;
 }
 
+/*ajuste gráfico*/
+
 #ajustes{
     display: flex;
     flex-direction: row-reverse;
@@ -175,6 +180,8 @@
     left: 53px;
     top: 19px;
 }
+
+/*rodapé*/
 
 #rodape{
     position: relative;

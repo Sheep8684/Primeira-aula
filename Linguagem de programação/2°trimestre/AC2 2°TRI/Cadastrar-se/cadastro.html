@@ -22,16 +22,38 @@
                 <div id="el1">
                     <h1 id="temos">TEMOS QUE PEGAR!</h1>
                     <p id="texto">Bem-vindo ao mundo Pokémon! Se você é um fã de longa data ou apenas está descobrindo essa incrível franquia, este site é o lugar perfeito para você.</p>
-                    <button id="cad">Cadastrar</button>
+                    <button id="logar" onclick="logar()">Entrar</button>
                 </div>
             </div>
         </div>
         <div id="login">
             <div id="username">
                 <h1 id="t2">Entrar</h1>
-                <input type="text" name="" id="usuario" placeholder="exemplo@gmail.com.br">
-                <input type="text" name="" id="senha" placeholder="Senha">
-                <button onclick="logar()" id="logar">Concluir</button>
+                <div class="row">
+                 <label for="" class="place" id="mudar">Nome completo:</label>
+                 <input type="text" placeholder="Digite seu nome" class="size" id="name">
+                </div>
+                <div class="row">
+                 <label for="" class="place">Email:</label>
+                 <input type="text" placeholder="exemplo@gmail.com" class="size" id="email">
+                </div>
+                <div class="row">
+                 <label for="" class="place">Idade:</label>
+                 <input type="number" placeholder="Digite sua idade" class="size" id="age">
+                </div>
+                <div class="row">
+                 <label for="" class="place">Senha:</label>
+                 <input type="text" placeholder="Digite sua senha" class="size" id="senha">
+                </div>
+                <div class="row">
+                 <label for="" class="place" id="mudar2">Confirme sua senha:</label>
+                 <input type="text" placeholder="Confirme sua senha" class="size" id="confirm">
+                </div>
+                <div class="row">
+                 <label for="" class="place">Gênero:</label>
+                 <input type="text" placeholder="M ou F" class="size" id="genero">
+                </div>
+                <button onclick="cadastrar()" id="cad">Concluir</button>
             </div>
             <div id="ajustes">
                 <div id="ash">
@@ -50,5 +72,7 @@
             <img src="whats.svg" alt="" width="56.7" height="54.98">
         </div>
     </footer>
+
+    <script src="login.js"></script>
 </body>
 </html>

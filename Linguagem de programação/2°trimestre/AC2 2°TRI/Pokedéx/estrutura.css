@@ -1,7 +1,11 @@
+*{
+    border: 0;
+    padding: 0;
+}
 
 #Central{
     width: 1280px;
-    height: 1913px;
+    height: auto;
     display: flex;
     flex-direction: column;
     font-family: "IBM Plex Sans", sans-serif;
@@ -109,7 +113,7 @@
 
 #login{
     width: 1280px;
-    height: 995px;
+    height: auto;
     background-color: #306CB4;
     display: flex;
     flex-direction: column;

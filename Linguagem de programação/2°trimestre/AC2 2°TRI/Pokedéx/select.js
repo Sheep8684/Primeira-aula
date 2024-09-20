@@ -14,44 +14,44 @@ function escolher(){
                                         <p>Chama</p>`
          break;
         case 'pichu':
-            resultado.innerHTML = `    <H1>Charmander</H1>
+            resultado.innerHTML = `    <H1>pichu</H1>
                                         <img src="pichu.jpeg" alt="" width="200" height="200">
                                         <h2>Tipo:</h2>
                                         <br>
-                                        <p>Fogo</p>
+                                        <p>Elétrico</p>
                                         <h2>Habilidade:</h2>
                                         <br>
-                                        <p>Chama</p>`
+                                        <p>Choque</p>`
             break;
         case 'bulbasaur':
-                resultado.innerHTML = `    <H1>Charmander</H1>
+                resultado.innerHTML = `    <H1>Bulbasaur</H1>
                                             <img src="bulbasaur.jpeg" alt="" width="200" height="200">
                                             <h2>Tipo:</h2>
                                             <br>
-                                            <p>Fogo</p>
+                                            <p>Planta/Veneno</p>
                                             <h2>Habilidade:</h2>
                                             <br>
-                                            <p>Chama</p>`
+                                            <p>Chicote de vinhas</p>`
                 break;
         case 'squirtle':
-                    resultado.innerHTML = `    <H1>Charmander</H1>
+                    resultado.innerHTML = `    <H1>Squirtle</H1>
                                                 <img src="squirtle.jpeg" alt="" width="200" height="200">
                                                 <h2>Tipo:</h2>
                                                 <br>
-                                                <p>Fogo</p>
+                                                <p>Água</p>
                                                 <h2>Habilidade:</h2>
                                                 <br>
-                                                <p>Chama</p>`
+                                                <p>Bolhas</p>`
                 break;
         case 'caterpie':
-                    resultado.innerHTML = `<H1>Charmander</H1>
+                    resultado.innerHTML = `<H1>Caterpie</H1>
                                             <img src="caterpie.jpeg" alt="" width="200" height="200">
                                             <h2>Tipo:</h2>
                                                 <br>
-                                                <p>Fogo</p>
+                                                <p>Inseto</p>
                                                 <h2>Habilidade:</h2>
                                                 <br>
-                                                <p>Chama</p>`
+                                                <p>Teia</p>`
                 break;
 
         default:
